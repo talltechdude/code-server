@@ -16,5 +16,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
+          tags: talltechdude/code-server:latest
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
