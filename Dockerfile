@@ -1,4 +1,5 @@
 FROM ghcr.io/linuxserver/code-server:version-v3.9.0
+LABEL org.opencontainers.image.source=https://github.com/talltechdude/code-server
 
 # Add Mods
 ENV DOCKER_MODS=linuxserver/mods:code-server-docker|linuxserver/mods:code-server-zsh
